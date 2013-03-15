@@ -30,30 +30,22 @@
 
 	</settings>    
 
+	
 	<slides>
 	
-        <slide>
-            <url>images/slide1.jpg</url>
-        </slide>
+	    <slide>
+		<url>images/slide1.jpg</url>
+	    </slide>
 		<!-- changing transition between first & second slide -->
-        <transition num="1"  direction="down"/>
-        <slide>
-       		<url>images/slide2.jpg</url>
-        </slide>		
+	    <transition num="4" direction="up" shader="flat" delay="0.05" z_multiplier="4" />
+	    
+	    <slide>
+		    <url>images/slide2.jpg</url>
+	    </slide>		
 		<!-- changing transition between second & third slide -->
-        <transition num="1" direction="right" shader="flat" />
-		<slide>
-            <url>images/slide1.jpg</url>
-        </slide>
-        <!-- transitions properties defined in transitions template -->
-		<slide>
-       		<url>images/slide2.jpg</url>
-        </slide>
-		<transition num="4" direction="up" shader="flat" delay="0.05" z_multiplier="4" />
-        <slide>
-       		<url>images/slide1.jpg</url>
-        </slide>
-				
+		
+	    <transition num="4" direction="up" shader="flat" delay="0.05" z_multiplier="4" />
+		
 	</slides>
 </cu3er>
 
